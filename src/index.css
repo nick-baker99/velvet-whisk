@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Titan+One&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-titan: "Titan One", "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --color-seashell-100: oklch(0.9799 0.0147 70.89); /* #FFF7EE */
+  --color-tacha-500: oklch(0.7937 0.113 88.94); /* #D9B861 */
+  --color-tacha-600: oklch(0.76 0.113 88.94); /* #CEAF56 */
+
+  --color-lightpink-100: oklch(0.9522 0.0163 12.79); /* #FAEBEC */
+  --color-lightpink-200: oklch(0.9037 0.0324 13.02); /* #f4d7d9 */
+
+  --color-burgundy-500: oklch(0.4133 0.1062 13.44); /* #7A2E3A */
+  --color-burgundy-600: oklch(0.3133 0.1062 13.44); /* #5b1021 */
+
+  --color-wood-700: oklch(0.3391 0.0413 19.43); /* #4B2F2F */
+  --color-wood-900: oklch(0.153 0.0106 18.38); /* #100a0a */
+
+  --color-darkgray-800: oklch(0.222 0 0); /* #1b1b1b */
+  --color-darkgray-900: oklch(0.1822 0 0); /* #121212 */
+
+  --breakpoint-screen-widescreen: (min-aspect-ratio: 3/2);
+}
+
+:root {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
