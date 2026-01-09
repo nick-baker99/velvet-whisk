@@ -4,6 +4,7 @@ import LinkBanner from '../components/LinkBanner'
 import MenuSpotlight from '../components/MenuSpotlight'
 import Services from '../components/Services'
 import bakeryBgImage from '../assets/images/bakery-8760348_1920.jpg';
+import CustomerFeedback from '../components/CustomerFeedback'
 
 type Props = {}
 
@@ -19,6 +20,7 @@ const LandingPage = (props: Props) => {
         backgroundImage={bakeryBgImage}
         url="/order"
       />
+      <CustomerFeedback />
     </>
   )
 }
