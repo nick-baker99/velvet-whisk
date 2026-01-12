@@ -1,16 +1,28 @@
 import { useState } from 'react';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import MainLayout from './layouts/MainLayout';
 import LandingPage from './pages/LandingPage';
+import { createBrowserRouter, RouterProvider } from 'react-router';
+import AboutUs from './pages/AboutUs';
+import PageNotFound from './pages/PageNotFound';
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      Component: MainLayout,
+      children: [
+        { index: true, Component: LandingPage },
+        { path: "about", Component: AboutUs }
+      ]
+    },
+    {
+      path: "*",
+      Component: PageNotFound
+    }
+  ])
 
   return (
-    <main className="min-h-screen font-inter">
-      <Header />
-      <LandingPage />
-      <Footer />
-    </main>
+    <RouterProvider router={router} />
   )
 }
 

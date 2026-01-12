@@ -1,9 +1,9 @@
 import React from 'react'
 import heroImg from '../assets/images/chocolate-crossaint.jpg';
 
-const Hero = () => {
+const WelcomeHero = () => {
   return (
-    <section className="pt-24 pb-12 xl:section-min-height flex items-center md:pt-32 md:pb-20 bg-linear-to-b from-seashell-100 to-lightpink-100">
+    <section className="pt-20 pb-16 xl:pb-0 xl:pt-0 xl:section-min-height flex items-center bg-linear-to-b from-seashell-100 to-lightpink-100">
       <div className="h-full max-w-7xl mx-auto px-6 flex flex-col lg:flex-row justify-between items-center gap-12">
         <article className="w-full sm:w-5/6 lg:w-1/2 space-y-8">
           <h1 className="text-4xl md:text-5xl text-wood-700 text-center lg:text-left font-bold">Handcrafted <span className="text-burgundy-500">Sweet Treats</span> Made with Love</h1>
@@ -19,4 +19,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default WelcomeHero;

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import mainLogo from '../assets/images/velvet-whisk-logo.png';
 import { BsList, BsXLg } from "react-icons/bs";
+import { Link } from "react-router";
 
 type Props = {}
 
@@ -25,10 +26,10 @@ const header = (props: Props) => {
         <div className="fixed top-0 left-0 w-screen h-screen mt-20 bg-black opacity-40 z-1" onClick={() => setMenuOpen(false)}></div>
       )}
       <nav className="max-w-7xl mx-auto flex justify-between items-center gap-4 px-6 py-4 relative z-20" aria-label="main">
-        <a href="#home" className="flex items-end gap-3">
+        <Link to="/" className="flex items-end gap-3">
           <img src={mainLogo} alt="velvet whisk logo" className="max-w-8 lg:max-w-10" />
           <span className="text-2xl lg:text-3xl font-titan text-burgundy-500 whitespace-nowrap">VELVET <span className="text-wood-700">WISK</span></span>
-        </a>
+        </Link>
         <button 
           id="menu-open-btn" 
           className={`${menuOpen ? 'hidden ' : ''}md:hidden p-1.5 w-10 h-10 text-wood-700`} 
@@ -46,12 +47,12 @@ const header = (props: Props) => {
           <BsXLg className="w-full h-full" />
         </button>
         <ul id="navigation-menu" className={`${!menuOpen ? 'hidden ': ''}md:flex space-y-2 md:space-y-0 z-20 w-full md:w-auto top-full md:top-auto left-0 md:left-auto px-5 pt-4 pb-5 md:p-0 bg-seashell-100 drop-shadow-sm md:drop-shadow-none md:bg-none items-center gap-3 lg:gap-4 absolute md:relative`}>
-          <li><a href="#home" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Home</a></li>
-          <li><a href="#about" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">About</a></li>
-          <li><a href="#treats" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Our Treats</a></li>
-          <li><a href="#testimonials" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Testimonials</a></li>
+          <li><Link to="/" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Home</Link></li>
+          <li><Link to="/about" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">About</Link></li>
+          <li><Link to="/menu" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Our Treats</Link></li>
+          <li><Link to="/testimonials" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Testimonials</Link></li>
           <li>
-            <a href="#order" className="inline-block bg-burgundy-500 hover:bg-burgundy-600 text-white font-semibold px-5 py-2 rounded-full transition-colors duration-300">Order Now</a>
+            <Link to="/custom-orders" className="inline-block bg-burgundy-500 hover:bg-burgundy-600 text-white font-semibold px-5 py-2 rounded-full transition-colors duration-300">Order Now</Link>
           </li>
         </ul>
       </nav>
