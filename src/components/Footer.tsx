@@ -4,6 +4,8 @@ import { LuFacebook, LuInstagram } from "react-icons/lu";
 import { FaXTwitter, FaWhatsapp } from "react-icons/fa6";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-burgundy-500 p-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-[2fr_1fr_1fr]">
@@ -52,7 +54,7 @@ const Footer = () => {
         </div>
         <hr className="col-span-full border-white opacity-40 my-5" />
         <div className="col-span-full text-center p-4">
-          <p className="text-sm text-white opacity-70">Copyright © 2016 - <script>document.write(new Date().getFullYear())</script> Velvet Whisk Ltd All Rights Reserved</p>
+          <p className="text-sm text-white opacity-70">Copyright © 2016 - {currentYear} Velvet Whisk Ltd All Rights Reserved</p>
         </div>
       </div>
     </footer>

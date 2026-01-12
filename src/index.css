@@ -24,6 +24,10 @@
   --breakpoint-screen-widescreen: (min-aspect-ratio: 3/2);
 }
 
+@utility section-min-height {
+  min-height: calc(100vh - 68px);
+}
+
 :root {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
