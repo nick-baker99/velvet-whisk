@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Downtown Flagship Store",
+    "street": "86 Baker Street",
+    "area": "Downtown District",
+    "postcode": "BS16 7ZL",
+    "telephone": "+44 (0)1274 249337",
+    "email": "downtown@velvetwhisk.com",
+    "hours": [
+      {
+        "range": "Monday - Friday",
+        "hours": "7:00 AM - 6:00PM"
+      },
+      {
+        "range": "Saturday - Sunday",
+        "hours": "8:00 AM - 4:00PM"
+      }
+    ]
+  },
+  {
+    "name": "Riverside Boutique",
+    "street": "216 Riverside Avenue",
+    "area": "Riverside Quarter",
+    "postcode": "CM2 4BT",
+    "telephone": "+44 (0)1205 643847",
+    "email": "reiverside@velvetwhisk.com",
+    "hours": [
+      {
+        "range": "Monday - Friday",
+        "hours": "8:00 AM - 7:00PM"
+      },
+      {
+        "range": "Saturday - Sunday",
+        "hours": "9:00 AM - 3:00PM"
+      }
+    ]
+  },
+  {
+    "name": "Hillside Café",
+    "street": "79 Hillside Road",
+    "area": "Hillside Village",
+    "postcode": "BR29 4XD",
+    "telephone": "+44 (0)1360 842641",
+    "email": "hillside@velvetwhisk.com",
+    "hours": [
+      {
+        "range": "Monday - Friday",
+        "hours": "7:00 AM - 5:30PM"
+      },
+      {
+        "range": "Saturday - Sunday",
+        "hours": "7:00 AM - 4:00PM"
+      }
+    ]
+  }
+]
