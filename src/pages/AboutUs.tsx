@@ -1,8 +1,10 @@
 import HeroBanner from "../components/HeroBanner";
+import { Link } from "react-router";
 import heroImg from "../assets/images/bakery-shop.jpg";
 import doughImage from "../assets/images/dough-kneading.jpg";
 import cakeSelectionImage from "../assets/images/cake-buffet-58678_1280.jpg";
 import Locations from "../components/Locations";
+import { BsArrowRight  } from "react-icons/bs";
 
 const AboutUs = () => {
   return (
@@ -13,7 +15,7 @@ const AboutUs = () => {
         bgImage={heroImg}
       />
       <section className="py-10 md:py-18 px-6 bg-linear-to-b from-seashell-100 to-lightpink-100">
-        <div className="max-w-7xl mx-auto flex flex-col items-center lg:flex-row gap-6">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-6">
           <article className="flex flex-col justify-center space-y-5 sm:space-y-8">
             <h3 className="text-3xl md:text-4xl font-bold text-wood-700">Where It All Began</h3>
             <p className="text-sm md:text-base text-wood-700 opacity-95">What started as a simple dream to create beautiful, handcrafted desserts has grown into a bakery and catering experience devoted to turning life's moments into something unforgettable. From intimate gatherings to grand celebrations, we believe every occasion deserves something extraordinary.
@@ -24,7 +26,7 @@ const AboutUs = () => {
         </div>
       </section>
       <section className="py-10 md:py-18 px-6 bg-linear-to-b from-seashell-100 to-lightpink-100">
-        <div className="max-w-7xl mx-auto flex flex-col items-center lg:flex-row gap-8">
+        <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-8">
           <img src={cakeSelectionImage} alt="dough kneading" className="w-full md:w-5/6 lg:w-1/2 rounded-2xl" />
           <article className="flex flex-col justify-center space-y-5 sm:space-y-8">
             <h3 className="text-3xl md:text-4xl font-bold text-wood-700">Crafted for Every Occasion</h3>
@@ -35,6 +37,16 @@ const AboutUs = () => {
         </div>
       </section>
       <Locations />
+      <section className="pt-6 pb-16 px-6">
+        <div className="max-w-7xl mx-auto bg-wood-700 p-12 text-center">
+          <h3 className="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Place a Custom Order With Us?</h3>
+          <p className="max-w-4xl mx-auto text-lg text-white mb-8">At Velvet Whisk, we believe beautiful baking should be effortless to enjoy — from your first enquiry to the final bite.</p>
+            <Link className="text-md mx-auto flex items-center gap-3 hover:gap-4 w-fit bg-tacha-500 hover:bg-tacha-600 px-5 py-3.5 text-wood-700 transition-all duration-200" to="/order">
+            Place an Order
+            <BsArrowRight className="w-5 h-5" />
+          </Link>
+        </div>
+      </section>
     </>
   )
 }
