@@ -52,7 +52,7 @@ const header = (props: Props) => {
           <li><Link to="/menu" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Our Treats</Link></li>
           <li><Link to="/testimonials" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Testimonials</Link></li>
           <li>
-            <Link to="/custom-orders" className="inline-block bg-burgundy-500 hover:bg-burgundy-600 text-white font-semibold px-5 py-2 rounded-full transition-colors duration-300">Order Now</Link>
+            <Link to="/order" className="inline-block bg-burgundy-500 hover:bg-burgundy-600 text-white font-semibold px-5 py-2 rounded-full transition-colors duration-300">Order Now</Link>
           </li>
         </ul>
       </nav>

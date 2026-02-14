@@ -7,7 +7,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-burgundy-500 p-6">
+    <footer className="bg-burgundy-500 p-6 transform-gpu">
       <div className="max-w-7xl mx-auto grid md:grid-cols-[2fr_1fr_1fr]">
         <div className="p-2 flex flex-col justify-between gap-4">
           <a href="#home" className="flex items-end gap-3">
@@ -18,16 +18,16 @@ const Footer = () => {
             <h3 className="text-2xl text-white font-semibold mb-3">Our Socials</h3>
             <div className="space-x-3">
               <a href="#instagram" className="bg-white/10 hover:bg-white/20 text-white inline-block p-2.5 w-10 h-10 rounded-full transition-colors duration-300">
-                <LuFacebook className="w-full h-full" />
+                <LuFacebook className="w-full h-full block" />
               </a>
               <a href="#instagram" className="bg-white/10 hover:bg-white/20 text-white inline-block p-2.5 w-10 h-10 rounded-full transition-colors duration-300">
-                <LuInstagram className="w-full h-full" />
+                <LuInstagram className="w-full h-full block" />
               </a>
               <a href="#x" className="bg-white/10 hover:bg-white/20 text-white inline-block p-2.5 w-10 h-10 rounded-full transition-colors duration-300">
-                <FaXTwitter className="w-full h-full" />
+                <FaXTwitter className="w-full h-full block" />
               </a>
               <a href="#facebook" className="bg-white/10 hover:bg-white/20 text-white inline-block p-2.5 w-10 h-10 rounded-full transition-colors duration-300">
-                <FaWhatsapp className="w-full h-full" />
+                <FaWhatsapp className="w-full h-full block" />
               </a>
             </div>
           </div>

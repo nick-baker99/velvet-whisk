@@ -4,6 +4,7 @@ import LandingPage from './pages/LandingPage';
 import { createBrowserRouter, RouterProvider } from 'react-router';
 import AboutUs from './pages/AboutUs';
 import PageNotFound from './pages/PageNotFound';
+import Order from './pages/Order';
 
 function App() {
   const router = createBrowserRouter([
@@ -12,7 +13,8 @@ function App() {
       Component: MainLayout,
       children: [
         { index: true, Component: LandingPage },
-        { path: "about", Component: AboutUs }
+        { path: "about", Component: AboutUs },
+        { path: "order", Component: Order }
       ]
     },
     {
