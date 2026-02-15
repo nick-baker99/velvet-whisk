@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "artisan-cupcakes",
+    "name": "Artisan Cupcakes",
+    "description": "Delicate, moist cupcakes with handcrafted frosting in a variety of flavors.",
+    "quantity": "Box of 12",
+    "image": "cupcakes.jpg"
+  },
+  {
+    "slug": "french-macarons",
+    "name": "French Macarons",
+    "description": "Light, airy almond meringue cookies with luscious ganache fillings.",
+    "quantity": "Box of 12",
+    "image": "macaron.jpg"
+  },
+  {
+    "slug": "signature-cakes",
+    "name": "Signature Cakes",
+    "description": "Stunning layered cakes perfect for any celebration or special occasion.",
+    "quantity": "Box of 12",
+    "image": "cake-selection.jpg"
+  },
+  {
+    "slug": "gourmet-cookies",
+    "name": "Gourmet Cookies",
+    "description": "Crispy on the outside, chewy on the inside, made with premium chocolate.",
+    "quantity": "Box of 12",
+    "image": "pastries.jpg"
+  },
+  {
+    "slug": "wedding-cakes",
+    "name": "Wedding Cakes",
+    "description": "Crispy on the outside, chewy on the inside, made with premium chocolate.",
+    "quantity": "1",
+    "image": "wedding-cake.jpg"
+  },
+  {
+    "slug": "red-velvet-dream",
+    "name": "Red Velvet Dream",
+    "description": "Our signature red velvet cake with velvety cream cheese frosting, crafted with premium cocoa and a hint of vanilla.",
+    "quantity": "1",
+    "image": ""
+  },
+  {
+    "slug": "fudge-brownies",
+    "name": "Fudge Brownies",
+    "description": "Ultra-rich, fudgy brownies made with premium dark chocolate, a hint of espresso and topped with raspberries.",  
+    "quantity": "Box of 12",
+    "image": "chocolate-brownies.jpg"
+  },
+  {
+    "slug": "festive-gingerbread-men",
+    "name": "Festive Gingerbread Men",
+    "description": "Classic gingerbread cookies with festive decorations. Available November-December.",  
+    "quantity": "Box of 12",
+    "image": "gingerbread-men.jpg"
+  },
+  {
+    "slug": "buttery-crossaints",
+    "name": "Butter Croissants",
+    "description": "Flaky, buttery croissant made with European butter and laminated to perfection.",  
+    "quantity": "Box of 12",
+    "image": "butter-crossiants.jpg"
+  },
+  {
+    "slug": "mixed-berry-tart",
+    "name": "Mixed Berry Tart",
+    "description": "Buttery tart shell filled with vanilla pastry cream and topped with fresh seasonal berries.",  
+    "quantity": "Box of 12",
+    "image": "mixed-fruit-tarts.jpg"
+  },
+  {
+    "slug": "birthday-cakes",
+    "name": "Birthday Cakes",
+    "description": "",  
+    "quantity": "1",
+    "image": ""
+  }
+]

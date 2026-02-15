@@ -1,8 +1,9 @@
 [
   {
     "name": "Downtown Flagship Store",
+    "slug": "downtown-flagship-store",
     "street": "86 Baker Street",
-    "area": "Downtown District",
+    "area": "Westgate",
     "postcode": "BS16 7ZL",
     "telephone": "+44 (0)1274 249337",
     "email": "downtown@velvetwhisk.com",
@@ -19,6 +20,7 @@
   },
   {
     "name": "Riverside Boutique",
+    "slug": "riverside-botique",
     "street": "216 Riverside Avenue",
     "area": "Riverside Quarter",
     "postcode": "CM2 4BT",
@@ -37,6 +39,7 @@
   },
   {
     "name": "Hillside Café",
+    "slug": "hillside-cafe",
     "street": "79 Hillside Road",
     "area": "Hillside Village",
     "postcode": "BR29 4XD",
