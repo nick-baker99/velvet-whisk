@@ -10,7 +10,8 @@ type MenuItem = {
   quantity: string,
   image: string,
   slug: string,
-  category: string
+  category: string,
+  price?: number
 };
 
 const MenuSpotlight = () => {

@@ -5,7 +5,8 @@
     "description": "Delicate, moist cupcakes with handcrafted frosting in a variety of flavors.",
     "quantity": "Box of 12",
     "image": "cupcakes.jpg",
-    "category": "cupcakes-macaron"
+    "category": "cupcakes-macaron",
+    "price": 14.99
   },
   {
     "slug": "french-macarons",
@@ -13,15 +14,17 @@
     "description": "Light, airy almond meringue cookies with luscious ganache fillings.",
     "quantity": "Box of 12",
     "image": "macaron.jpg",
-    "category": "cupcakes-macaron"
+    "category": "cupcakes-macaron",
+    "price": 19.99
   },
   {
     "slug": "signature-cakes",
     "name": "Signature Cakes",
     "description": "Stunning layered cakes perfect for any celebration or special occasion.",
-    "quantity": "Box of 12",
+    "quantity": "Single",
     "image": "cake-selection.jpg",
-    "category": "cakes"
+    "category": "cakes",
+    "price": 30.00
   },
   {
     "slug": "gourmet-cookies",
@@ -29,12 +32,13 @@
     "description": "Crispy on the outside, chewy on the inside, made with premium strawberry conserve.",
     "quantity": "Box of 12",
     "image": "pastries.jpg",
-    "category": "cookies-brownies"
+    "category": "cookies-brownies",
+    "price": 12.99
   },
   {
     "slug": "wedding-cakes",
     "name": "Wedding Cakes",
-    "description": "Crispy on the outside, chewy on the inside, made with premium chocolate.",
+    "description": "Bespoke multi-tier wedding cakes designed to reflect your special day, crafted with premium ingredients and elegant finishes.",
     "quantity": "Single",
     "image": "wedding-cake.jpg",
     "category": "cakes"
@@ -45,7 +49,8 @@
     "description": "Our signature red velvet cake with velvety cream cheese frosting, crafted with premium cocoa and a hint of vanilla.",
     "quantity": "Single",
     "image": "red-velvet-cake.jpg",
-    "category": "cakes"
+    "category": "cakes",
+    "price": 44.99
   },
   {
     "slug": "red-velvet-cupcake",
@@ -53,44 +58,49 @@
     "description": "Our signature red velvet transformed into delicate, moreish cupcakes.",
     "quantity": "Box of 12",
     "image": "red-velvet-cupcakes.jpg",
-    "category": "cupcakes-macaron"
+    "category": "cupcakes-macaron",
+    "price": 14.99
   },
   {
     "slug": "fudge-brownies",
     "name": "Fudge Brownies",
-    "description": "Ultra-rich, fudgy brownies made with premium dark chocolate, a hint of espresso and topped with raspberries.",  
+    "description": "Ultra-rich, fudgy brownies made with premium dark chocolate, a hint of espresso and topped with raspberries.",
     "quantity": "Box of 12",
     "image": "chocolate-brownies.jpg",
-    "category": "cookies-brownies"
+    "category": "cookies-brownies",
+    "price": 14.99
   },
   {
     "slug": "festive-gingerbread-men",
     "name": "Festive Gingerbread Men",
-    "description": "Classic gingerbread cookies with festive decorations. Available November-December.",  
+    "description": "Classic gingerbread cookies with festive decorations. Available November-December.",
     "quantity": "Box of 12",
     "image": "gingerbread-men.jpg",
-    "category": "seasonal"
+    "category": "seasonal",
+    "price": 12.99
   },
   {
     "slug": "buttery-crossaints",
     "name": "Butter Croissants",
-    "description": "Flaky, buttery croissant made with European butter and laminated to perfection.",  
+    "description": "Flaky, buttery croissant made with European butter and laminated to perfection.",
     "quantity": "Box of 12",
     "image": "butter-crossiants.jpg",
-    "category": "pastries"
+    "category": "pastries",
+    "price": 14.99
   },
   {
     "slug": "mixed-berry-tart",
     "name": "Mixed Berry Tart",
-    "description": "Buttery tart shell filled with vanilla pastry cream and topped with fresh seasonal berries.",  
+    "description": "Buttery tart shell filled with vanilla pastry cream and topped with fresh seasonal berries.",
     "quantity": "Box of 12",
     "image": "mixed-fruit-tarts.jpg",
-    "category": "pastries"
+    "category": "pastries",
+    "price": 19.99
   },
   {
     "slug": "birthday-cakes",
     "name": "Birthday Cakes",
-    "description": "",  
+    "description": "Customisable birthday cakes available in a variety of flavours, fillings and decorative finishes to suit any celebration.",
     "quantity": "Single",
     "image": "birthday-cake.jpg",
     "category": "cakes"
@@ -98,33 +108,37 @@
   {
     "slug": "salted-caramel-cupcakes",
     "name": "Salted Caramel Cupcakes",
-    "description": "Caramel cupcake with salted caramel filling, topped with caramel buttercream and sea salt.",  
+    "description": "Caramel cupcake with salted caramel filling, topped with caramel buttercream and sea salt.",
     "quantity": "Box of 12",
     "image": "salted-caramel-cupcakes.jpg",
-    "category": "cupcakes-macaron"
+    "category": "cupcakes-macaron",
+    "price": 14.99
   },
   {
     "slug": "lemon-luxury",
     "name": "Lemon Luxury",
-    "description": "Bright and refreshing lemon cake with tangy lemon curd filling and Swiss meringue buttercream.",  
+    "description": "Bright and refreshing lemon cake with tangy lemon curd filling and Swiss meringue buttercream.",
     "quantity": "Single",
     "image": "lemon-cake.jpg",
-    "category": "cakes"
+    "category": "cakes",
+    "price": 9.99
   },
   {
     "slug": "lemon-tart",
     "name": "Lemon Tart",
-    "description": "Crisp pastry shell with silky smooth lemon curd, finished with torched Italian meringue.",  
+    "description": "Crisp pastry shell with silky smooth lemon curd, finished with torched Italian meringue.",
     "quantity": "Single",
     "image": "lemon-tart.jpg",
-    "category": "pastries"
+    "category": "pastries",
+    "price": 5.99
   },
   {
     "slug": "valentine-heart-cookies",
     "name": "Valentine Heart Cookies",
-    "description": "Heart-shaped sugar cookies decorated with romantic designs. Perfect for Valentine's Day. Available February only.",  
+    "description": "Heart-shaped sugar cookies decorated with romantic designs. Perfect for Valentine's Day. Available February only.",
     "quantity": "Single",
     "image": "valentine-heart-cookies.jpg",
-    "category": "seasonal"
+    "category": "seasonal",
+    "price": 3.99
   }
 ]

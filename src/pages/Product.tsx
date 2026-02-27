@@ -13,7 +13,8 @@ type MenuItem = {
   quantity: string,
   image: string,
   slug: string,
-  category: string
+  category: string,
+  price?: number
 } | null;
 
 type StarRange = 0 | 1 | 2 | 3 | 4 | 5;
@@ -76,9 +77,13 @@ const Product = () => {
               <span className="text-lg text-wood-700 font-bold block mb-2">Description</span>
               <p className="text-xl text-wood-700 opacity-90">{product.description}</p>
             </div>
-            <div className="mb-8">
+            <div className="mb-6">
               <span className="text-lg text-wood-700 font-bold block mb-2">Quantity</span>
               <p className="w-fit bg-lightpink-200 text-lg text-wood-700 px-4 py-2">{product.quantity}</p>
+            </div>
+            <div className="mb-6">
+              <span className="text-lg text-wood-700 font-bold block mb-2">Price</span>
+              <p className="w-fit bg-lightpink-200 text-lg text-wood-700 px-4 py-2">{product.price}</p>
             </div>
             <Link to="/order" className="text-md flex items-center gap-3 hover:gap-4 w-fit bg-burgundy-500 hover:bg-burgundy-600 px-5 py-3.5 text-white rounded-lg transition-all duration-200">
             Place a Custom Order
