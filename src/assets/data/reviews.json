@@ -1,0 +1,276 @@
+[
+  {
+    "name": "Emily Carter",
+    "customerType": "Wedding Client",
+    "comments": "Velvet Whisk created the most beautiful wedding cake we could have imagined. It tasted just as incredible as it looked. Our guests are still talking about it months later.",
+    "rating": 5
+  },
+  {
+    "name": "Daniel Hughes",
+    "customerType": "Regular Customer",
+    "comments": "The cupcakes are always fresh and perfectly frosted. I stop by almost every Friday and have never been disappointed.",
+    "rating": 5
+  },
+  {
+    "name": "Sophie Bennett",
+    "customerType": "Corporate Client",
+    "comments": "We ordered assorted macarons and cupcakes for a company launch event. The presentation was elegant and very on-brand. Delivery was smooth and on time.",
+    "rating": 5
+  },
+  {
+    "name": "James Holloway",
+    "customerType": "Regular Customer",
+    "comments": "Lovely atmosphere and even better cakes. The chocolate fudge cupcake is my personal favourite.",
+    "rating": 4
+  },
+  {
+    "name": "Olivia Turner",
+    "customerType": "Wedding Client",
+    "comments": "From our tasting session to the big day, everything felt seamless. The team really listened to what we wanted and delivered a cake that matched our theme perfectly.",
+    "rating": 5
+  },
+  {
+    "name": "Benjamin Clarke",
+    "customerType": "Corporate Client",
+    "comments": "Professional service and delicious treats. Our clients were impressed with the dessert table setup.",
+    "rating": 4
+  },
+  {
+    "name": "Chloe Morgan",
+    "customerType": "Regular Customer",
+    "comments": "The macarons are light, airy, and full of flavour. A little on the pricey side, but worth it for a treat.",
+    "rating": 4
+  },
+  {
+    "name": "Matthew Collins",
+    "customerType": "Wedding Client",
+    "comments": "Our three-tier cake was stunning and tasted amazing. Communication was excellent throughout.",
+    "rating": 5
+  },
+  {
+    "name": "Isabella Reed",
+    "customerType": "Regular Customer",
+    "comments": "I love trying the seasonal flavours. You can tell everything is made with care and quality ingredients.",
+    "rating": 5
+  },
+  {
+    "name": "Thomas Wright",
+    "customerType": "Corporate Client",
+    "comments": "Ordered for an office celebration. Great variety and beautifully packaged.",
+    "rating": 4
+  },
+
+  {
+    "name": "Grace Mitchell",
+    "customerType": "Wedding Client",
+    "comments": "The cake tasting was such a fun experience and helped us choose the perfect flavours. Highly recommend for any engaged couple.",
+    "rating": 5
+  },
+  {
+    "name": "Henry Scott",
+    "customerType": "Regular Customer",
+    "comments": "Consistently good pastries and friendly staff. Sometimes it gets busy, but it's worth the wait.",
+    "rating": 4
+  },
+  {
+    "name": "Amelia Brooks",
+    "customerType": "Corporate Client",
+    "comments": "Fantastic catering service. The dessert table looked incredible and tasted even better.",
+    "rating": 5
+  },
+  {
+    "name": "Lucas Price",
+    "customerType": "Regular Customer",
+    "comments": "The red velvet cake is absolutely divine. Moist, rich, and not overly sweet.",
+    "rating": 5
+  },
+  {
+    "name": "Ella Richardson",
+    "customerType": "Wedding Client",
+    "comments": "Velvet Whisk truly understood our vision. The cake design was elegant and exactly what we described.",
+    "rating": 5
+  },
+  {
+    "name": "Jack Foster",
+    "customerType": "Regular Customer",
+    "comments": "Great quality overall, though one time my order was slightly delayed. Still very happy with the products.",
+    "rating": 4
+  },
+  {
+    "name": "Lily Watson",
+    "customerType": "Corporate Client",
+    "comments": "Our team loved the cupcakes. The branding details added to the icing were a lovely touch.",
+    "rating": 5
+  },
+  {
+    "name": "Oliver Hayes",
+    "customerType": "Wedding Client",
+    "comments": "Beautiful cake, though delivery was a little later than expected. Thankfully it arrived in perfect condition.",
+    "rating": 4
+  },
+  {
+    "name": "Mia Long",
+    "customerType": "Regular Customer",
+    "comments": "The macarons are some of the best I've had outside of Paris. Crisp shells and smooth fillings.",
+    "rating": 5
+  },
+  {
+    "name": "William Cooper",
+    "customerType": "Corporate Client",
+    "comments": "Very professional service from start to finish. The desserts elevated our event.",
+    "rating": 5
+  },
+
+  {
+    "name": "Harper Bailey",
+    "customerType": "Regular Customer",
+    "comments": "Lovely cakes and nice presentation. I just wish there were more vegan options available.",
+    "rating": 3
+  },
+  {
+    "name": "George Ward",
+    "customerType": "Corporate Client",
+    "comments": "Good quality treats but the order confirmation took longer than expected. Overall still a positive experience.",
+    "rating": 3
+  },
+  {
+    "name": "Charlotte Simmons",
+    "customerType": "Wedding Client",
+    "comments": "The cake was beautiful but slightly sweeter than we anticipated. Guests still enjoyed it though.",
+    "rating": 3
+  },
+
+  {
+    "name": "Samuel Jenkins",
+    "customerType": "Regular Customer",
+    "comments": "Nice cupcakes but one flavour wasn't as fresh as usual. Staff handled it politely when I mentioned it.",
+    "rating": 2
+  },
+  {
+    "name": "Ava Knight",
+    "customerType": "Corporate Client",
+    "comments": "The desserts were good, but the setup took a bit longer than planned. Nothing major, just room for improvement.",
+    "rating": 2
+  },
+
+  {
+    "name": "Noah Dixon",
+    "customerType": "Regular Customer",
+    "comments": "Always impressed with the consistency and flavour combinations. A reliable go-to for sweet treats.",
+    "rating": 5
+  },
+  {
+    "name": "Freya Chapman",
+    "customerType": "Wedding Client",
+    "comments": "Everything from consultation to delivery felt personal and thoughtful. Could not have asked for more.",
+    "rating": 5
+  },
+  {
+    "name": "Ethan Mason",
+    "customerType": "Corporate Client",
+    "comments": "Beautifully crafted desserts that added a touch of elegance to our networking evening.",
+    "rating": 5
+  },
+  {
+    "name": "Scarlett Shaw",
+    "customerType": "Regular Customer",
+    "comments": "The salted caramel cupcake is perfection. Soft sponge and silky frosting.",
+    "rating": 5
+  },
+  {
+    "name": "Leo Gardner",
+    "customerType": "Wedding Client",
+    "comments": "Guests couldn't stop complimenting our cake. It looked stunning in photos too.",
+    "rating": 5
+  },
+  {
+    "name": "Hannah Walters",
+    "customerType": "Regular Customer",
+    "comments": "Charming little bakery with consistently delicious options.",
+    "rating": 4
+  },
+  {
+    "name": "Archie Lawson",
+    "customerType": "Corporate Client",
+    "comments": "Very smooth ordering process and excellent presentation.",
+    "rating": 5
+  },
+  {
+    "name": "Zoe Ellis",
+    "customerType": "Wedding Client",
+    "comments": "The tasting session was fantastic and helped us decide confidently.",
+    "rating": 5
+  },
+  {
+    "name": "Jacob Murray",
+    "customerType": "Regular Customer",
+    "comments": "Great variety and seasonal specials keep things interesting.",
+    "rating": 4
+  },
+  {
+    "name": "Ruby Armstrong",
+    "customerType": "Corporate Client",
+    "comments": "Professional, punctual, and delicious. Will definitely order again.",
+    "rating": 5
+  },
+  {
+    "name": "Theo Cunningham",
+    "customerType": "Wedding Client",
+    "comments": "A truly bespoke experience. The cake design matched our floral theme perfectly.",
+    "rating": 5
+  },
+  {
+    "name": "Evie Hunter",
+    "customerType": "Regular Customer",
+    "comments": "Fresh, flavourful, and beautifully decorated every single time.",
+    "rating": 5
+  },
+  {
+    "name": "Oscar Barrett",
+    "customerType": "Corporate Client",
+    "comments": "The dessert table added a premium feel to our annual awards night.",
+    "rating": 5
+  },
+  {
+    "name": "Layla West",
+    "customerType": "Wedding Client",
+    "comments": "Absolutely flawless cake and fantastic communication.",
+    "rating": 5
+  },
+  {
+    "name": "Maxwell Grant",
+    "customerType": "Regular Customer",
+    "comments": "Quality is always high and the team are welcoming.",
+    "rating": 4
+  },
+  {
+    "name": "Poppy Dean",
+    "customerType": "Corporate Client",
+    "comments": "Great experience from enquiry to delivery. The macarons were a standout.",
+    "rating": 5
+  },
+  {
+    "name": "Reuben Cole",
+    "customerType": "Wedding Client",
+    "comments": "We felt completely looked after. The cake tasted just as good as it looked.",
+    "rating": 5
+  },
+  {
+    "name": "Megan Fowler",
+    "customerType": "Regular Customer",
+    "comments": "Lovely selection of cakes and pastries. Perfect weekend treat.",
+    "rating": 4
+  },
+  {
+    "name": "Caleb Hudson",
+    "customerType": "Corporate Client",
+    "comments": "Impressive attention to detail and beautiful presentation.",
+    "rating": 5
+  },
+  {
+    "name": "Brooke Stevens",
+    "customerType": "Wedding Client",
+    "comments": "Our guests said it was the best wedding cake they'd ever had.",
+    "rating": 5
+  }
+]
