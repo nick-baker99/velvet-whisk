@@ -26,7 +26,7 @@ const Menu = () => {
   return (
     <>
       <HeroBanner 
-        title="Our Treats"
+        title="Our Menu"
         subTitle="Discover our carefully crafted selection of artisanal sweet treats, made fresh daily with premium ingredients and lots of love."
         bgImage={heroImg}
       />

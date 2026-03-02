@@ -79,11 +79,11 @@ const Product = () => {
             </div>
             <div className="mb-6">
               <span className="text-lg text-wood-700 font-bold block mb-2">Quantity</span>
-              <p className="w-fit bg-lightpink-200 text-lg text-wood-700 px-4 py-2">{product.quantity}</p>
+              <p className="w-fit bg-lightpink-200 text-wood-700 px-4 py-2">{product.quantity}</p>
             </div>
             <div className="mb-6">
               <span className="text-lg text-wood-700 font-bold block mb-2">Price</span>
-              <p className="w-fit bg-lightpink-200 text-lg text-wood-700 px-4 py-2">{product.price}</p>
+              <p className="w-fit bg-lightpink-200 text-wood-700 px-4 py-2">£{product.price}</p>
             </div>
             <Link to="/order" className="text-md flex items-center gap-3 hover:gap-4 w-fit bg-burgundy-500 hover:bg-burgundy-600 px-5 py-3.5 text-white rounded-lg transition-all duration-200">
             Place a Custom Order
@@ -94,6 +94,7 @@ const Product = () => {
         <hr className="max-w-7xl mx-auto text-burgundy-500 my-4 opacity-40" />
         <section className="max-w-7xl mx-auto py-6">
           <h2 className="text-xl text-wood-700 font-bold mb-4">Reviews</h2>
+          <Link to="/testimonials" className="text-burgundy-500 font-semibold mb-4 inline-block">See All Reviews</Link>
           <div className="grid grid-cols-3 gap-5">
             {reviews.map(review => (
               <FeedbackBlock

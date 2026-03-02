@@ -8,6 +8,7 @@ import Order from './pages/Order';
 import Menu from './pages/Menu';
 import Product from './pages/Product';
 import menuData from "./assets/data/menu.json";
+import Testimonials from './pages/Testimonials';
 
 function App() {
   const router = createBrowserRouter([
@@ -26,7 +27,8 @@ function App() {
             return menuItem ?? null;
           },
           Component: Product 
-        }
+        },
+        { path: "/reviews", Component: Testimonials }
       ]
     },
     {

@@ -2,6 +2,7 @@ import React from 'react';
 import footerLogo from '../assets/images/velvet-whisk-logo-light-medium.png';
 import { LuFacebook, LuInstagram } from "react-icons/lu";
 import { FaXTwitter, FaWhatsapp } from "react-icons/fa6";
+import { Link } from 'react-router';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -35,21 +36,20 @@ const Footer = () => {
         <div className="p-2">
           <h3 className="text-2xl text-white font-semibold mb-3">Quick Links</h3>
           <ul className="space-y-2 pl-1">
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">Home</a></li>
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">About</a></li>
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">Our Treats</a></li>
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">Testimonials</a></li>
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">Order</a></li>
+            <li><Link to="/" className="text-white/90 hover:text-tacha-500 transition-colors">Home</Link></li>
+            <li><Link to="/about" className="text-white/90 hover:text-tacha-500 transition-colors">About</Link></li>
+            <li><Link to="/menu" className="text-white/90 hover:text-tacha-500 transition-colors">Our Menu</Link></li>
+            <li><Link to="/reviews" className="text-white/90 hover:text-tacha-500 transition-colors">Reviews</Link></li>
+            <li><Link to="/order" className="text-white/90 hover:text-tacha-500 transition-colors">Order</Link></li>
           </ul>
         </div>
         <div className="p-2">
           <h3 className="text-2xl text-white/90 font-semibold mb-3">Services</h3>
           <ul className="space-y-2 pl-1">
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">Birthday Cakes</a></li>
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">Wedding Cakes</a></li>
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">Corporate Events</a></li>
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">Catering</a></li>
-            <li><a href="" className="text-white/90 hover:text-tacha-500 transition-colors">Gift Boxes</a></li>
+            <li><Link to="/menu/birthday-cakes" className="text-white/90 hover:text-tacha-500 transition-colors">Birthday Cakes</Link></li>
+            <li><Link to="/wedding-cakes" className="text-white/90 hover:text-tacha-500 transition-colors">Wedding Cakes</Link></li>
+            <li><Link to="" className="text-white/90 hover:text-tacha-500 transition-colors">Corporate Events</Link></li>
+            <li><Link to="" className="text-white/90 hover:text-tacha-500 transition-colors">Catering</Link></li>
           </ul>
         </div>
         <hr className="col-span-full border-white opacity-40 my-5" />

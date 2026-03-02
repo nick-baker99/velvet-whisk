@@ -49,8 +49,8 @@ const header = (props: Props) => {
         <ul id="navigation-menu" className={`${!menuOpen ? 'hidden ': ''}md:flex space-y-2 md:space-y-0 z-20 w-full md:w-auto top-full md:top-auto left-0 md:left-auto px-5 pt-4 pb-5 md:p-0 bg-seashell-100 drop-shadow-sm md:drop-shadow-none md:bg-none items-center gap-3 lg:gap-4 absolute md:relative`}>
           <li><Link to="/" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Home</Link></li>
           <li><Link to="/about" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">About</Link></li>
-          <li><Link to="/menu" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Our Treats</Link></li>
-          <li><Link to="/testimonials" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Testimonials</Link></li>
+          <li><Link to="/menu" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Our Menu</Link></li>
+          <li><Link to="/reviews" className="block text-wood-700 font-semibold hover:text-burgundy-500 p-1 lg:p-2 transition-colors">Reviews</Link></li>
           <li>
             <Link to="/order" className="inline-block bg-burgundy-500 hover:bg-burgundy-600 text-white font-semibold px-5 py-2 rounded-full transition-colors duration-300">Order Now</Link>
           </li>
