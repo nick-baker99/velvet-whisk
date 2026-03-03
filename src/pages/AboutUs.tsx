@@ -5,6 +5,7 @@ import doughImage from "../assets/images/dough-kneading.jpg";
 import cakeSelectionImage from "../assets/images/cake-buffet-58678_1280.jpg";
 import Locations from "../components/Locations";
 import { BsArrowRight  } from "react-icons/bs";
+import CateringEvents from "../components/CateringEvents";
 
 const AboutUs = () => {
   return (
@@ -27,7 +28,7 @@ const AboutUs = () => {
       </section>
       <section className="py-10 md:py-18 px-6 bg-linear-to-b from-seashell-100 to-lightpink-100">
         <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-8">
-          <img src={cakeSelectionImage} alt="dough kneading" className="w-full md:w-5/6 lg:w-1/2 rounded-2xl" />
+          <img src={cakeSelectionImage} alt="dough kneading" className="w-full md:w-5/6 lg:w-1/2 max-h-150 object-cover rounded-2xl" />
           <article className="flex flex-col justify-center space-y-5 sm:space-y-8">
             <h3 className="text-3xl md:text-4xl font-bold text-wood-700">Crafted for Every Occasion</h3>
             <p className="text-sm md:text-base text-wood-700 opacity-95">From delicate everyday indulgences to show-stopping centrepieces, Velvet Whisk offers a thoughtfully curated range of sweet treats designed to elevate any moment. Our signature cupcakes are soft, indulgent, and finished with beautifully handcrafted frosting. Our French macarons bring a touch of elegance with their light almond shells and rich, flavour-filled ganache, while our custom cakes are carefully designed to reflect your celebration — whether it's a birthday, wedding, or milestone event.
@@ -36,6 +37,7 @@ const AboutUs = () => {
           </article>
         </div>
       </section>
+      <CateringEvents />
       <Locations />
       <section className="pt-6 pb-16 px-6">
         <div className="max-w-7xl mx-auto bg-wood-700 p-12 text-center">

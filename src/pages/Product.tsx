@@ -7,24 +7,7 @@ import starImage from '../assets/images/star.png';
 import reviewsData from '../assets/data/reviews.json';
 import FeedbackBlock from "../components/FeedbackBlock";
 
-type MenuItem = {
-  name: string,
-  description: string,
-  quantity: string,
-  image: string,
-  slug: string,
-  category: string,
-  price?: number
-} | null;
-
 type StarRange = 0 | 1 | 2 | 3 | 4 | 5;
-
-type Review = {
-  name: string,
-  customerType: string,
-  comments: string,
-  rating: StarRange
-};
 
 const Product = () => {
   // data load provides the product data

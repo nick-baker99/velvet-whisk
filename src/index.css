@@ -12,6 +12,8 @@
   --color-lightpink-100: oklch(0.9522 0.0163 12.79); /* #FAEBEC */
   --color-lightpink-200: oklch(0.9037 0.0324 13.02); /* #f4d7d9 */
 
+  --color-burgundy-300: #c05968; /* #a63f4f */
+  --color-burgundy-400: #a63f4f; /* #a63f4f */
   --color-burgundy-500: oklch(0.4133 0.1062 13.44); /* #7A2E3A */
   --color-burgundy-600: oklch(0.3133 0.1062 13.44); /* #5b1021 */
 
@@ -25,8 +27,23 @@
   --breakpoint-screen-widescreen: (min-aspect-ratio: 3/2);
 }
 
-@utility section-min-height {
-  min-height: calc(100vh - 100px);
+@utility hero-height {
+  height: calc(100vh - 72px);
+}
+
+.image-overlay {
+  position: relative;
+}
+.image-overlay::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  opacity: 10%;
+  background: rgb(0,0,0);
+  transition: all .3s;
 }
 
 :root {

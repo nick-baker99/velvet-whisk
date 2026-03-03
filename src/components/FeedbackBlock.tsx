@@ -1,8 +1,6 @@
 import React from 'react'
 import starImage from '../assets/images/star.png';
 
-type StarRange = 0 | 1 | 2 | 3 | 4 | 5;
-
 type Props = {
   name: string,
   customerType: string,
