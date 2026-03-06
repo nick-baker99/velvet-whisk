@@ -21,7 +21,7 @@ const Testimonials = () => {
 
   const starRatings: Array<number> = [1, 2, 3, 4, 5];
 
-  const handleSubmit = (e: React.ChangeEvent<HTMLInput>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setFormError('');
 

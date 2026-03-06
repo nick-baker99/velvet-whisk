@@ -31,7 +31,7 @@ const LocationCard = ({ name, street, area, postcode, telephone, email, hours }:
       <p className="text-base opacity-90 mb-5">{area}, {postcode}</p>
       <div className="flex gap-3 items-center mb-4">
         <BsTelephone className="w-4.5 h-4.5 text-burgundy-500" />
-        <a href={`tel:${telephone.replaceAll(' ', '')}`} className="text-sm hover:text-burgundy-500 transition-color opacity-90">{telephone}</a>
+        <a href={`tel:${telephone.replace(/\s/g, '')}`} className="text-sm hover:text-burgundy-500 transition-color opacity-90">{telephone}</a>
       </div>
       <div className="flex gap-3 items-center mb-4">
         <FiMail className="w-4.5 h-4.5 text-burgundy-500" />

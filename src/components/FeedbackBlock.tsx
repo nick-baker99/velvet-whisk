@@ -5,7 +5,7 @@ type Props = {
   name: string,
   customerType: string,
   comments: string,
-  rating: StarRange
+  rating: number
 };
 
 const FeedbackBlock = ({ name, customerType, comments, rating }: Props) => {

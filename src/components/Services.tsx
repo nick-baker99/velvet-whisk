@@ -8,8 +8,8 @@ const Services = () => {
     <section className="bg-seashell-100 py-24 px-6">
       <div className="max-w-7xl mx-auto space-y-10">
         <article className="max-width-3xl text-center space-y-6">
-          <h2 className="text-3xl font-bold text-wood-700">About Velvet Whisk</h2>
-          <p className="text-md text-wood-700 max-w-2xl mx-auto">Founded with a passion for creating memorable moments through exceptional baked goods, Velvet Whisk has become a beloved destination for sweet treat enthusiasts. Our commitment to quality and artistry shines through in every creation.</p>
+          <h2 className="text-3xl font-bold text-wood-700">Our Values</h2>
+          <p className="text-base md:text-lg text-wood-700 max-w-4xl mx-auto">Founded with a passion for creating memorable moments through exceptional baked goods, Velvet Whisk has become a beloved destination for sweet treat enthusiasts. Our commitment to quality and artistry shines through in every creation.</p>
         </article>
         <div className="max-w-2xl lg:max-w-7xl mx-auto flex flex-col lg:flex-row gap-8">
           <Service 

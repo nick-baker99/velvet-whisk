@@ -17,7 +17,7 @@ const CustomerFeedback = () => {
       <div className="max-w-2xl lg:max-w-7xl mx-auto">
         <article className="max-w-3xl mx-auto text-center space-y-6 mb-6">
           <h2 className="text-3xl text-wood-700 font-bold">What Our Customers Say</h2>
-          <p className="text-md text-wood-700 opacity-90">Don't just take our word for it - hear from our delighted customers who've experienced the Velvet Whisk difference.</p>
+          <p className="text-base lg:text-lg text-wood-700 opacity-90">Don't just take our word for it - hear from our delighted customers who've experienced the Velvet Whisk difference.</p>
         </article>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
           {reviews.map((review, i) => (
